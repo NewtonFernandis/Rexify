@@ -40,21 +40,21 @@ const phoneRegex = RegexBuilder.create()
 ## Installation
 
 ```bash
-npm install rexify
+npm install rexify-regex
 ```
 
 ```bash
-yarn add rexify
+yarn add rexify-regex
 ```
 
 ```bash
-pnpm add rexify
+pnpm add rexify-regex
 ```
 
 ## Quick Start
 
 ```typescript
-import { RegexBuilder, regex } from 'rexify'
+import { RegexBuilder, regex } from 'rexify-regex'
 
 // Simple text matching
 const pattern = RegexBuilder.create()
@@ -74,7 +74,7 @@ const quickPattern = regex().digits().text('-').letters().build()
 ### Text and Character Matching
 
 ```typescript
-import { RegexBuilder } from 'rexify'
+import { RegexBuilder } from 'rexify-regex'
 
 // Match specific text
 const textPattern = RegexBuilder.create().text('hello').build()

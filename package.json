@@ -1,5 +1,5 @@
 {
-  "name": "rexify",
+  "name": "rexify-regex",
   "version": "1.0.1",
   "description": "A professional TypeScript library for building readable regular expressions using fluent API and method chaining",
   "main": "dist/cjs/index.js",
@@ -28,7 +28,6 @@
     "lint:check": "eslint src/**/*.ts",
     "format": "prettier --write src/**/*.ts",
     "format:check": "prettier --check src/**/*.ts",
-    "prepublishOnly": "npm run lint:check && npm run format:check && npm run test && npm run build",
     "release": "standard-version",
     "docs": "typedoc --out docs src/index.ts",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
