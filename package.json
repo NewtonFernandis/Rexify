@@ -1,6 +1,6 @@
 {
   "name": "rexify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A professional TypeScript library for building readable regular expressions using fluent API and method chaining",
   "main": "dist/cjs/index.js",
   "types": "dist/types/index.d.ts",
